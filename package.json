@@ -1,0 +1,26 @@
+{
+  "name": "contentful-with-react",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "@contentful/rich-text-html-renderer": "^13.4.0",
+    "contentful": "^5.1.3",
+    "html-react-parser": "^0.9.1",
+    "node-sass-chokidar": "^1.3.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-helmet": "^5.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "react-snap": "^1.11.5"
+  },
+  "scripts": {
+    "start": "react-scripts start watch",
+    "build-css": "node-sass-chokidar src/styles/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "build": "react-scripts build",
+    "postbuild": "react-snap",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
