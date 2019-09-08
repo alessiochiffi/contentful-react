@@ -2,6 +2,7 @@
   "name": "contentful-with-react",
   "version": "0.1.1",
   "private": true,
+  "homepage": "https://nervous-sinoussi-570035.netlify.com/",
   "dependencies": {
     "@contentful/rich-text-html-renderer": "^13.4.0",
     "contentful": "^5.1.3",
